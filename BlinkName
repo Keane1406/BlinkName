@@ -1,0 +1,87 @@
+void setup() {
+
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(push_button1, INPUT);
+
+}
+
+void loop() {
+    
+    if (digitalRead(push_button1) == HIGH)
+    {
+    
+    delay(1000);
+    
+    // K
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(100);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    delay(1000);
+    
+    // E
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(100);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    delay(1000);
+    
+    // A
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(100);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    delay(1000);
+    
+    // N
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(250);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(100);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    delay(1000);
+    
+    // E
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(100);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    
+    delay(1000);
+    
+    }
+ 
+}
